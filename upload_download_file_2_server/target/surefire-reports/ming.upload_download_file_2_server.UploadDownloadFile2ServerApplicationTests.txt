@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ming.upload_download_file_2_server.UploadDownloadFile2ServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.069 s - in ming.upload_download_file_2_server.UploadDownloadFile2ServerApplicationTests

@@ -1,0 +1,6 @@
+ming/upload_download_file_2_server/api/download/FileDownloadUtil.class
+ming/upload_download_file_2_server/api/upload/FileUploadUtil.class
+ming/upload_download_file_2_server/UploadDownloadFile2ServerApplication.class
+ming/upload_download_file_2_server/api/upload/FileUploadResponse.class
+ming/upload_download_file_2_server/api/download/FileDownloadController.class
+ming/upload_download_file_2_server/api/upload/FileUploadController.class
