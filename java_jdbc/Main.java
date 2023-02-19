@@ -17,10 +17,11 @@ public class Main{
             Class.forName(JDBC_DRIVER);
             connection = DriverManager.getConnection(DB_URL, USER, PASS);
             statement = connection.createStatement();
-            String command = "select * from test_java";
-            ResultSet result = statement.executeQuery(command);
-            while(result.next())  
-                System.out.println(result.getInt(1)+"  "+result.getString(2)+"  ");  
+            String command = "update test_java set st='on9' ";
+            statement.executeUpdate(command);
+            // ResultSet result = statement.executeQuery(command);
+            // while(result.next())  
+            //     System.out.println(result); 
             connection.close();  
         
         } catch (Exception e) {
