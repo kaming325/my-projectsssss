@@ -10,3 +10,13 @@ mysql> FLUSH PRIVILEGES;
 mysql> exit;
 
 sudo service mysql restart
+
+
+auth_socket make password setup not working
+  use: ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+  
+check if using password: 
+  SELECT User, Host, HEX(authentication_string) FROM mysql.user;
+  
+check plugin: 
+  SELECT User, Host, plugin FROM mysql.user;
