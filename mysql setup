@@ -20,3 +20,9 @@ check if using password:
   
 check plugin: 
   SELECT User, Host, plugin FROM mysql.user;
+  
+  
+  
+  
+  
+  
