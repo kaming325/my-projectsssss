@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class dbConn {
 	private final String username = "root";
-	private final String password = "Dllm4439";
+	private final String password = "";
 	public Connection myConn;
 	private Statement myState;
 	private ResultSet myRs;
