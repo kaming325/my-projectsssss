@@ -1,0 +1,6 @@
+// return hard code message
+https://obdqaomyd9.execute-api.ap-northeast-1.amazonaws.com/lambdaTest
+
+
+// return qlDB data
+https://nncpqhyf93.execute-api.ap-southeast-2.amazonaws.com/TestingQLDBwithLambda
