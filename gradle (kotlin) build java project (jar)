@@ -1,0 +1,23 @@
+gradle clean -> build -> bootJar / jar
+
+
+build.gradle.kts of full kotlin project(no main java class):
+
+  tasks.withType<Jar> {
+    manifest {
+        attributes["Main-Class"] = "MainKt"
+    }
+
+    duplicatesStrategy = org.gradle.api.file.DuplicatesStrategy.EXCLUDE   // important
+
+    configurations["compileClasspath"].forEach{                           // with this part, kotlin
+        file: File -> from(zipTree(file.absoluteFile))                       source code no need Main class
+    }
+}
+
+build.gradle.kts of full spring-boot(java) project:
+  tasks {
+	bootJar{
+		duplicatesStrategy = org.gradle.api.file.DuplicatesStrategy.EXCLUDE   // important
+	}
+}
