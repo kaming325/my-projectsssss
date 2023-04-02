@@ -4,7 +4,7 @@ make a record of my projects
 
 ## money_change 
 
-It is a java program that allows me and my colleagues not to calculate every order,
+It is a java program i wrote during my first year of ive, it allows me and my colleagues not to calculate every order,
 and to save orders to database (i use mysql for this) so that we can settle accounts and go back home 
 faster than ever : )
 
