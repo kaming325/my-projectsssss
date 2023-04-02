@@ -19,3 +19,14 @@ Also i have learnt how to build and make executable jar file from gradle (kotlin
 
 <img src="./img/money_change_v2_1.jpg" width="700" title="start program and store data to db">
 <img src="./img/money_change_v2_2.png" width="700" title="check the orders of the whole day">
+
+## upload_download_file_2_server
+
+This is also a spring boot api project, it provide a gateway to upload and download file from remote server.
+
+## simple building management program (with oop design pattern)
+
+This is one of the school java assignments, it implements command pattern, factory pattern and memento pattern, it provides undo function.
+
+
+
