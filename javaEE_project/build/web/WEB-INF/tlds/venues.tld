@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib 
+    xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd"
+    version="2.0"
+>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>ict</short-name>
+    <uri>/WEB-INF/tlds/venues.tld</uri>
+ 
+    <tag>
+        <name>showVenues</name>
+        <tag-class>ict.tag.CustomerTag</tag-class>
+        <body-content>empty</body-content>
+        <info> add two int </info>
+        
+        <attribute>
+            <name>venues</name>
+            <required>false</required>
+            <type>java.lang.ArrayList</type>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        
+    </tag>
+
+ 
+</taglib>
