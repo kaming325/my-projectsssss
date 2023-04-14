@@ -32,4 +32,11 @@ This is also a spring boot api project, it provide a gateway to upload and downl
 This is one of the school java assignments, it implements command pattern, factory pattern and memento pattern, it provides undo function.
 
 
+## javaEE_project (not finished)
+
+This is one of the school java assignments, it is a CRUD web application that implements javaEE 6.
+
+
+
+
 
